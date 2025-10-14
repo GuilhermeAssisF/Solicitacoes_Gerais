@@ -7,7 +7,7 @@ $(document).ready(function() {
 	Compartilhados.destacaParecer();
 	Compartilhados.camposObrigatorio();
 	
-	if(atividade !== 41 && $("#cpReaberturaChamado").val() == ""){
-    	$("#divReabertura").hide();
-    }
+	if (atividade !== 41) {
+		$("#divReabertura").hide();
+	}
 });
