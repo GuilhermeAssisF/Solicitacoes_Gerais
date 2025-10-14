@@ -52,6 +52,8 @@ function displayFields(form, customHTML) {
 		//DADOS DO SOLICITANTE
 		form.setValue('cpLoginFluig', dadosColaborador.get(0).get("login"));
 		form.setValue('cpNomeSolicitante', DadosSolicitante.getValue(0, "NOME"));
+		form.setValue('cpNumeroSolicitacao', getValue("WKNumProces"));
+		form.setValue('cpEmailSolicitante', dadosColaborador.get(0).get("mail"));
 		form.setValue('cpMatriculaSolicitante', DadosSolicitante.getValue(0, "CHAPA"));
 		form.setValue('cpFuncaoSolicitante', DadosSolicitante.getValue(0, "CARGO"));
 		form.setValue('cpEmpresaSolicitante', DadosSolicitante.getValue(0, "NOMEFANTASIA"));
@@ -65,6 +67,8 @@ function displayFields(form, customHTML) {
 		form.setValue('TxtSITRais', "Ativ. normal c/ remun., lic. remun. c/ dir. integr.");
 		form.setValue('TxtCodVINCRais', "1");
 		form.setValue('TxtVINCRais', "Contr. trab., expr. OU tácito p/ prazo indet");
+
+
 		 
 	}
 	if(atividade==106){

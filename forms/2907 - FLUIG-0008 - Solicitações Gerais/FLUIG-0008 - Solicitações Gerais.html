@@ -137,12 +137,11 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label class="labelField">Aprova&ccedil;&atilde;o</label> <select
+								<label class="labelField">Ação</label> <select
 									class="form-control" name="cpReaberturaChamado"
 									id="cpReaberturaChamado" aprovacao obrigatorio>
 									<option value=" ">Selecione...</option>
-									<option value="1" data-status="success">Reenviar
-										Chamado</option>
+									<option value="1" data-status="success">Reencaminhar</option>
 									<option value="2" data-status="success">Cancelar</option>
 								</select>
 							</div>
@@ -252,21 +251,21 @@
                               <div class="row">
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                       <label class="labelField">Aprovador</label> <input
+                                       <label class="labelField">Analista</label> <input
                                           type="text" name="cpRespGestor2" id="cpRespGestor2"
                                           class="form-control" readonly />
                                     </div>
                                  </div>
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                       <label class="labelField">Aprova&ccedil;&atilde;o</label> 
+                                       <label class="labelField">Ação</label> 
                                        <select
                                           name="cpAprovacaoGestor2" id="cpAprovacaoGestor2"
                                           class="form-control" aprovacao obrigatorio>
                                           <option value="">Selecione...</option>
-                                          <option value="1">Aprovado</option>
-                                          <option value="2">Reprovado - Com Pendências</option>
-                                          <option value="3">Reprovado</option>
+                                          <option value="1">Concluir</option>
+                                          <option value="2">Corrigir</option>
+                                          <option value="3">Cancelar</option>
                                        </select>
                                     </div>
                                  </div>
@@ -306,5 +305,8 @@
 		<script type="text/javascript" src="jquery.maskMoney.min.js"></script>
 		<script type="text/javascript" src="jquery-ui-Data.js"></script>
 		<script type="text/javascript" src="jquery-uiData2.js"></script>
+      <script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+        
+      
    </body>
 </html>
