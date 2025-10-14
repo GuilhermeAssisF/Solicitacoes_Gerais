@@ -1,7 +1,5 @@
-
 $(document).ready(function() {
 		
-	
 	var atividade = getWKNumState();
 	
 	Compartilhados.expandePainel(atividade);
