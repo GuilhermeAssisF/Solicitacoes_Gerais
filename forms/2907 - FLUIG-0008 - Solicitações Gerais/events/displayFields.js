@@ -52,7 +52,6 @@ function displayFields(form, customHTML) {
 		//DADOS DO SOLICITANTE
 		form.setValue('cpLoginFluig', dadosColaborador.get(0).get("login"));
 		form.setValue('cpNomeSolicitante', DadosSolicitante.getValue(0, "NOME"));
-		form.setValue('cpNumeroSolicitacao', getValue("WKNumProces"));
 		form.setValue('cpEmailSolicitante', dadosColaborador.get(0).get("mail"));
 		form.setValue('cpMatriculaSolicitante', DadosSolicitante.getValue(0, "CHAPA"));
 		form.setValue('cpFuncaoSolicitante', DadosSolicitante.getValue(0, "CARGO"));
